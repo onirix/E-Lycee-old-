@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Zofe\\Rapyd\\' => array($vendorDir . '/serverfireteam/rapyd-laravel/src'),
     'Whoops' => array($vendorDir . '/filp/whoops/src'),
     'System' => array($vendorDir . '/phpseclib/phpseclib/phpseclib'),
     'Symfony\\Component\\Translation\\' => array($vendorDir . '/symfony/translation'),
@@ -21,11 +22,14 @@ return array(
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
     'Symfony\\Component\\BrowserKit\\' => array($vendorDir . '/symfony/browser-kit'),
     'Stack' => array($vendorDir . '/stack/builder/src'),
+    'Serverfireteam\\Panel' => array($vendorDir . '/serverfireteam/panel/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log'),
     'Predis' => array($vendorDir . '/predis/predis/lib'),
     'PHPParser' => array($vendorDir . '/nikic/php-parser/lib'),
+    'PHPExcel' => array($vendorDir . '/phpoffice/phpexcel/Classes'),
     'Net' => array($vendorDir . '/phpseclib/phpseclib/phpseclib'),
     'Math' => array($vendorDir . '/phpseclib/phpseclib/phpseclib'),
+    'Maatwebsite\\Excel\\' => array($vendorDir . '/maatwebsite/excel/src'),
     'Jeremeamia\\SuperClosure' => array($vendorDir . '/jeremeamia/SuperClosure/src'),
     'Illuminate' => array($vendorDir . '/laravel/framework/src'),
     'File' => array($vendorDir . '/phpseclib/phpseclib/phpseclib'),
