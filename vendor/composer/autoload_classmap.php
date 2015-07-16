@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'AlterQuestionsTable' => $baseDir . '/app/database/migrations/2015_07_16_104237_alter_questions_table.php',
     'AlterUsersTable' => $baseDir . '/app/database/migrations/2015_07_15_101428_alter_users_table.php',
     'Aws\\AutoScaling\\AutoScalingClient' => $vendorDir . '/aws/aws-sdk-php/src/Aws/AutoScaling/AutoScalingClient.php',
     'Aws\\AutoScaling\\Enum\\LifecycleState' => $vendorDir . '/aws/aws-sdk-php/src/Aws/AutoScaling/Enum/LifecycleState.php',
