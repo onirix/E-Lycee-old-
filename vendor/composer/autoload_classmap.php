@@ -995,6 +995,7 @@ return array(
     'ClassPreloader\\Parser\\FileVisitor' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/FileVisitor.php',
     'ClassPreloader\\Parser\\NodeTraverser' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/NodeTraverser.php',
     'CreateAdminsTable' => $vendorDir . '/serverfireteam/panel/src/database/migrations/2014_11_16_205658_create_admins_table.php',
+    'CreateChoicesTable' => $baseDir . '/app/database/migrations/2015_07_16_105838_create_choices_table.php',
     'CreatePasswordRemindersTable' => $vendorDir . '/serverfireteam/panel/src/database/migrations/2014_12_02_152920_create_password_reminders_table.php',
     'CreatePostsTable' => $baseDir . '/app/database/migrations/2015_07_16_082639_create_posts_table.php',
     'CreateQuestionsTable' => $baseDir . '/app/database/migrations/2015_07_16_103737_create_questions_table.php',
