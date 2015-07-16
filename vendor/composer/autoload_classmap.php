@@ -998,6 +998,7 @@ return array(
     'CreatePasswordRemindersTable' => $vendorDir . '/serverfireteam/panel/src/database/migrations/2014_12_02_152920_create_password_reminders_table.php',
     'CreatePostsTable' => $baseDir . '/app/database/migrations/2015_07_16_082639_create_posts_table.php',
     'CreateQuestionsTable' => $baseDir . '/app/database/migrations/2015_07_16_103737_create_questions_table.php',
+    'CreateScoresTable' => $baseDir . '/app/database/migrations/2015_07_16_104718_create_scores_table.php',
     'Crypt_AES' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Crypt/AES.php',
     'Crypt_Base' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Crypt/Base.php',
     'Crypt_Blowfish' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Crypt/Blowfish.php',
